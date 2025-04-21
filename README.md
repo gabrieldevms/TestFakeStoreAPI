@@ -106,19 +106,20 @@ Pastas:
 │   └── api/
 │       └── products.spec.ts
 ├── utils/
-│   └── request.ts 
+│   └── apiClient.ts 
 </pre>
 
 
 ## 🔍 Exemplo de Teste Automatizado
 
+<pre> 
 test('Deve retornar produto por ID válido', async ({ request }) => {
   const response = await request.get('/products/1');
   expect(response.ok()).toBeTruthy();
   const body = await response.json();
   expect(body.id).toBe(1);
 });
-
+</pre>
 
 ## 📊 Resultados dos Testes
 
