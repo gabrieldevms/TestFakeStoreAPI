@@ -101,7 +101,13 @@ Tecnologia: Playwright com TypeScript
 
 Pastas:
 
-<pre> ├── tests/ │ └── api/ │ └── products.spec.ts ├── utils/ │ └── apiClient.ts </pre>
+<pre> 
+├── tests/
+│   └── api/
+│       └── products.spec.ts
+├── utils/
+│   └── request.ts 
+</pre>
 
 
 ## 🔍 Exemplo de Teste Automatizado
